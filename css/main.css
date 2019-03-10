@@ -1,7 +1,7 @@
 .squish {
-  line-height: 0.75;
+  line-height: .75;
 }
 
-.unit {
+.height {
   max-height: 3.5em;
 }
