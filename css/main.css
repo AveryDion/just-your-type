@@ -18,6 +18,11 @@ html {
   max-height: .75em;
 }
 
+.svg {
+  width:100px;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -37,6 +42,10 @@ html {
     color: rgb(24, 79, 86);
   }
 
+  .svg {
+    width: 200px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -48,6 +57,10 @@ html {
 
   .serif {
     color: rgb(46, 143, 112);
+  }
+
+  .svg {
+    width: 300px;
   }
 
 }
