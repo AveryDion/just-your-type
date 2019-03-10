@@ -1,7 +1,12 @@
-.squish {
-  line-height: .75;
-}
 
 .height {
-  max-height: 3.5em;
+  max-height: 3em;
+}
+
+.small-height {
+  max-height: .75em;
+}
+
+.xsmall-height {
+  max-height: .25em;
 }
