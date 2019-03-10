@@ -1,10 +1,13 @@
 
 html {
   font-family: Roboto, sans-serif;
+  background-color: rgb(128, 198, 209);
+  color: rgb(57, 139, 168);
 }
 
 .serif {
   font-family: "Yeseva One", cursive;
+  color: rgb(46, 143, 112);
 }
 
 .height {
@@ -13,4 +16,38 @@ html {
 
 .small-height {
   max-height: .75em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    background-color: rgb(112, 197, 173);
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: rgb(46, 143, 112);
+    color: rgb(112, 197, 173);
+  }
+
+  .serif {
+    color: rgb(24, 79, 86);
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    background-color: rgb(24, 79, 86);
+    color: rgb(128, 198, 209);
+  }
+
+  .serif {
+    color: rgb(46, 143, 112);
+  }
+
 }
