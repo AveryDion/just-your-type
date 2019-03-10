@@ -1,4 +1,12 @@
 
+html {
+  font-family: Roboto, sans-serif;
+}
+
+.serif {
+  font-family: "Yeseva One", cursive;
+}
+
 .height {
   max-height: 3em;
 }
